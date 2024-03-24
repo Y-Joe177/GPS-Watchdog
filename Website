@@ -1,0 +1,218 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>GPS WATCHDOG</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">GPS WATCHDOG</a>
+        <nav class="navigation">
+            <a href="#summary">Summary</a>
+            <a href="#problem">Problem</a>
+            <a href="#tecnologiesused">Technologies Used</a>
+            <a href="#solution">Solution</a>
+            <a href="#marketpotential">Market Potential</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="main">
+        <div>
+            <h2>Youssef Amr  -Saif Magdy - Mohamed Nady - Youssef Ahmed<br><span>GPS Watchdog</span></h2>
+            <h3>Saving People's Lives</h3>
+            <a href="#projects" class="main-btn">More Details</a>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="summary">
+        <h2 class="title">Summary</h2>
+   <center> <h4>"GPS Watchdog" is a software programming project that contributes to solve GPS deflection problem</h4></center>
+
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-map"></i>
+                </div> 
+                <div class="info">
+                    <h3>What is GPS deflection and how it affect us</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-question"></i>
+                </div>
+                <div class="info">
+                    <h3>How GPS deflection occur</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="info">
+                    <h3>what is the solution for this problem</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="problem" id="problem">
+        <h2 class="title">Problem</h2>
+      <p class="large-text"> When the Earth's atmosphere bends GPS signals, it throws off location data. This mistake might seem small, but it can cause big trouble. Cars, airplanes, and even ships could end up in the wrong place, leading to accidents and delays. Even worse, emergency services relying on GPS might take longer to reach people in need. The problem doesn't stop there. Inaccurate measurements of forests due to bad GPS signals can trick people into cutting down more trees. This speeds up climate change, making the Earth hotter. As ice sheets melt from the heat, oceans rise, flooding cities and forcing people to move. So, what bends these signals? Solar wind space that comes from sun cause geomagnetic storms that have a great effect in causing disturbances and turbulence in the ionosphere .which affect the propagation and cause delays in GPS signals.  To fix this problem, scientists need super accurate data on these space events. Thankfully, satellites like NASA's WIND are helping us get the information we need. </p>
+<br>
+<center><img src="images/problem1.jpg" alt="A portrait photo of a smiling person"></cenetr>
+<center><img src="images/problem2.jpg" alt="A portrait photo of a smiling person"></cenetr>
+    </section>
+
+<section class="cards" id="tecnologiesused">
+        <h2 class="title">Technologies Used</h2>
+   <center> <h4>"Our project aims to use Software tevhnology to predict the GPS deflection value according to the data given. Our project aims to fix illogical connections within data using a powerful mix of advanced deep learning techniques and well-established Python libraries.  </h4></center>
+
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-search"></i>
+                </div> 
+                <div class="info">
+                    <h3>LSTM</h3>
+                     <p>The heart of the system is a Long Short-Term Memory (LSTM) model. LSTMs are famous for their ability to learn from sequences of data and remember important details over long stretches. This lets the model spot and fix inconsistencies in the information.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <div class="info">
+                    <h3>Models</h3>
+                    <p>1. Transformer Forecaster, specializes in predicting future trends based on past information. By combining these two, the model can not only identify weird connections in the data but also forecast what the data will look like for the next five hours.
+<br> 2. Our project utilizes a Transformer Regression model to uncover hidden patterns and complex relationships within the data, further enhancing the accuracy of GPS deflection predictions.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                
+                <div class="info">
+                    <h3>Libraries</h3>
+                    <p>The project relies on the strengths of popular Python libraries. NumPy handles all the number crunching, while Pandas makes organizing and analyzing data a breeze. Finally, TensorFlow, a powerful deep learning framework, acts as the platform for building, training, and running both the LSTM and Transformer models. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="cards" id="solution">
+        <h2 class="title">Solution</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div> 
+                <div class="info">
+                    <h3>Get data
+of solar wind space, strength of geomagnetic storm and ionospheric disturbances  </h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <div class="info">
+                    <h3>Deep learning Models <br>
+1. LSTM <br>
+2. Transformer forecasting <br>
+3. Transformer regression</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-map-pin"></i>
+                </div>
+                <div class="info">
+                    <h3>Edit original  GPS  coordinates </h3>
+                </div>
+            </div>
+        </div>
+<br>
+<p class="large-text">Our study focuses on developing a deep learning model. However, before we introduce the models. Every model must be trained before being tested. We first collect past data for each factor at the same time for 10 hours, then give each model 7 hours of this data to learn and create relationships, then compare his results to the real ones by calculating the loss (error) using the loss function to assist the model in propagating itself by creating more accurate relationships between the inputs. 
+<br> Starting with LSTM model (seq2seq model) . Its function is to predict and converts the data into a more informative format closely aligned with storm-related information. Our model relies on past solar wind space data as a reliable ground truth for model evaluation. <br> Now, with the second model (transformer Forecaster model), we can learn from previous data of solar wind space, construct relations, and get anticipated data. We achieved 0.06 loss out of 100 for this step. 
+The third model, called the Transformer Regression model, uses predicted solar wind data to determine the geomagnetic storm (measured in kp index) and the same thing will happen between geo magnetic storm (kp index) and  ionosphere disturbance (IDI), which are the primary causes of GPS deflection.  In this step we achieved 0.3 loss out of 100.
+By determining the value of the deflection we can make a calibration on GPS to avoid the problems that occurs due to it and save people lives. </p>
+<br> <br>
+<br><center><h2> Part of Our results </h2></center>
+<br>
+<br>
+
+<center><img src="images/solution1.jpg" alt="A portrait photo of a smiling person" width="1000" height="650"></cenetr>
+<br> <br>
+This graph is comparing between our model prediction and ground truth (real values) of two variables of solar wind space. We achieved 0.06 loss out of 100 for this step. 
+<br> <br>
+<br><center><h2> Road Map </h2></center>
+<br>
+<br>
+
+<center><img src="images/roadmap.jpg" alt="A portrait photo of a smiling person" width="800" height="1000"></cenetr>
+<br> <br>
+
+
+    </section>
+
+ <section class="marketpotential" id="marketpotential">
+        <h2 class="title">Market Potential</h2>
+       <p class="large-text"> Our deep learning model for predicting GPS deflection has a massive global market potential.                              Inaccurate GPS data currently plagues transportation, aviation, maritime navigation, and emergency services, leading to accidents, disruptions, and even deaths. 
+Our model offers a revolutionary solution by predicting and correcting deflection in real time, drastically improving safety and efficiency across these industries. Beyond immediate benefits, it has the potential to save lives by preventing accidents and ensuring timely emergency response. The economic gains from reduced disruptions and delays are also significant. 
+The market extends beyond traditional users. Environmental organizations like Rainforest Alliance. and Environmental Defense Fund (EDF) can utilize our model for accurate forest density measurements, aiding in the fight against deforestation, a major driver of climate change. 
+This positions the project as a key player in promoting a sustainable future.
+</p>
+<br>
+
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+201278583513</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>yousfamr177@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>GPS Watchdog</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
